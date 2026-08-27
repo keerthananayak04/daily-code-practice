@@ -10,3 +10,8 @@ My daily coding practice in Python - learning and building logic every day.
 **Example :** s = ["h","e","l","l","o"] -> ["o","l","l","e","h"]
 **Solution File:** reverse_string.py
 **My Approach:** Used two pointers (f and l) from start to end, swap until they meet.
+## Day 3 - Valid Palindrome
+**Problem :** Check if a string is a palindrome after removing non-alphanumeric chars
+**Example :** s = "A man, a plan, a canal: Panama" -> True
+**Solution File:** valid_palindrome.py
+**My Approach:** Filtered alnum chars, lowercased, compared string with its reverse.
